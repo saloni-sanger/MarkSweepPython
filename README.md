@@ -15,26 +15,26 @@ Larson at Seattle University.
 3. Perform Mark-Sweep.
 4. Out which heap blocks are marked and reclaimed/swept.
 
-### Sample I/O
+### Sample I/O    
 
-**Sample Input File**
-10
-p,0
-0,1
-1,7
-r,2
-2,0
-4,1
-4,5
-5,4
-5,9
-s,6
-8,4
-9,8
+**Sample Input File**   
+10   
+p,0   
+0,1   
+1,7   
+r,2   
+2,0   
+4,1   
+4,5   
+5,4   
+5,9   
+s,6   
+8,4   
+9,8   
 
-**Sample Output**
-Marked nodes: 0 1 2 6 7
-Swept nodes: 3 4 5 8 9
+**Sample Output**   
+Marked nodes: 0 1 2 6 7    
+Swept nodes: 3 4 5 8 9    
 
-#### Other
+#### Other   
 Comments are present in the code for further technical understanding.
